@@ -341,6 +341,7 @@ if __name__ == '__main__':
         myTimezone='America/New_York'
 
     bot_main("init")
+    bot_main("get_power_rankings")
     sched = BlockingScheduler(job_defaults={'misfire_grace_time': 15*60})
 
     #power rankings:                     tuesday evening at 6:30pm.
